@@ -32,8 +32,9 @@ export default class PublicHeader extends Component{
   render(){
     return(
       <header className="header-container">
+      但三次
         <span className="header-slide-icon icon-catalog" onClick={this.toggleNav}></span>
-        <span className="header-title">这里有改动,第二次改动{this.props.title}</span>
+        <span className="header-title">{this.props.title}</span>
         {
           this.props.record&&<NavLink to="/record" exact className="header-link icon-jilu"></NavLink>
         }
