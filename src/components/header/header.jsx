@@ -32,6 +32,7 @@ export default class PublicHeader extends Component{
   render(){
     return(
       <header className="header-container">
+      但三次
         <span className="header-slide-icon icon-catalog" onClick={this.toggleNav}></span>
         <span className="header-title">{this.props.title}</span>
         {
